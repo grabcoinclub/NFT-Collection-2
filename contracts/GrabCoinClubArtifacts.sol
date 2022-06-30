@@ -42,22 +42,22 @@ contract GrabCoinClubArtifacts is ERC721, ERC721Enumerable, ReentrancyGuard, Own
 
     constructor() ERC721("GrabCoinClubArtifacts", "GCCA") {
         uint256[seriesTotal] memory series_ = [
-            uint256(3000),
-            uint256(2500),
+            uint256(2855),
             uint256(2200),
-            uint256(1800),
+            uint256(2000),
+            uint256(1700),
             uint256(1500),
-            uint256(1300),
-            uint256(1100),
-            uint256(800),
+            uint256(1000),
+            uint256(1000),
+            uint256(600),
+            uint256(600),
             uint256(500),
+            uint256(500),
+            uint256(400),
             uint256(300),
-            uint256(200),
-            uint256(150),
-            uint256(100),
-            uint256(70),
-            uint256(25),
-            uint256(10)
+            uint256(240),
+            uint256(110),
+            uint256(50)
         ];
         uint256 last = 0;
         for (uint256 i = 0; i < series_.length; i++) {
